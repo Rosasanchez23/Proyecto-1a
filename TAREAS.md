@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|---|---|
 | T01 | organizacion/asignaciones | Crear TAREAS.md, acordar responsables y revisores; incorporar la guía en docs/. |Rosa Sánchez Espinoza|Rosasanchez23|Itze02| Integrada | https://github.com/Rosasanchez23/Proyecto-1a/pull/1 |
 | T02 | estructura/base | Crear archivos base, .gitignore e index.html mínimo. |Rosa Sánchez Espinoza|Rosasanchez23|260110399-oss| Integrada | https://github.com/Rosasanchez23/Proyecto-1a/pull/3 |
-| T03 | web/planteamiento | Completar título, objetivo y problemática en index.html. |Alexa Lizbeth Hernández León|260110399-oss| | Pendiente ||
+| T03 | web/planteamiento | Completar título, objetivo y problemática en index.html. |Alexa Lizbeth Hernández León|260110399-oss|Rosasanchez23 | Integrada |https://github.com/Rosasanchez23/Proyecto-1a/pull/6 |
 | T04 | web/metodologia | Explicar el proceso de análisis, programación, pruebas y colaboración. |Itzel Gonzalez Lozada|Itze02| | Pendiente | |
 | T05 | web/integrantes | Agregar tabla de integrantes con datos, fotografías y enlaces personales. |Itzel Gonzalez Lozada|Itze02| | Pendiente | |
 | T06 | java/problema-1 | Agregar solución Java del problema 1 con comentarios y comprobar su ejecución. |Luis Enrique Alamilla Martinez|xXlvbabyXx| | Pendiente | |
