@@ -67,3 +67,37 @@ javac problemas/problema-1/src/Problema1.java
 
 # 2. Ejecutar el programa
 java -cp problemas/problema-1/src Problema1
+
+```
+*(Nota: Si se compila localmente, recuerda no subir el archivo `Problema1.class` al repositorio).*
+
+### Ejemplo de ejecución
+Supongamos que un cliente **no** es estudiante acreditado (`0`) y adquiere un equipo que **no** pertenece al catálogo educativo (`0`) con un precio base de **$1000.00**:
+
+**Entrada en consola:**
+```text
+=== MÓDULO FINANCIERO-LÓGICO DE IMPUESTOS ===
+Precio base del equipo informático ($): 1000
+¿Es estudiante acreditado? (1 = Sí / 0 = No): 0
+¿El equipo es de catálogo educativo? (1 = Sí / 0 = No): 0
+```
+
+**Salida obtenida:**
+```text
+--- RESULTADO ---
+Proposición p (Estudiante): Falso (0)
+Proposición q (Catálogo educativo): Falso (0)
+Política aplicada: Impuesto Total (¬p ∧ ¬q) - Tasa 16%
+Precio base:     $1000.00
+Impuesto (16%):  $160.00
+Costo final:     $1160.00
+```
+
+**Explicación del ejemplo:** Como ambas proposiciones resultan falsas ($\neg p \land \neg q$), el programa descarta la exención (0%) y el subsidio (8%), aplicando la tasa general del 16%. Multiplica $\$1000.00 \times 0.16 = \$160.00$ de impuesto y suma ambos valores para obtener el costo final de **$\$1160.00$**.
+
+---
+
+## 6. Casos de prueba
+Para consultar los diez casos de prueba manuales, sus cálculos previos y la verificación de resultados, revisa el documento de pruebas:
+
+* [Ver casos de prueba manuales](pruebas/casos-prueba.md)
