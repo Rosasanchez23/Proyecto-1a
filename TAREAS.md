@@ -12,10 +12,10 @@
 | T08 | pruebas/problema-1 | Calcular y ejecutar 10 casos del problema 1; registrar resultados. |Rosa Sánchez Espinoza|Rosasanchez23| xXlvbabyXx | Integrada | https://github.com/Rosasanchez23/Proyecto-1a/pull/21 |
 | T09 | java/problema-2 | Agregar solución Java del problema 2 con comentarios y comprobar su ejecución. |Hector Rodriguez San Roman|hectorsamur25|260110399-oss| Integrada | https://github.com/Rosasanchez23/Proyecto-1a/pull/23 |
 | T10 | docs/problema-2 | Completar README del problema 2 con ejemplo e instrucciones de ejecución. |Hector Rodriguez San Roman|hectorsamur25|Itze02| Integrada | https://github.com/Rosasanchez23/Proyecto-1a/pull/25 |
-| T11 | pruebas/problema-2 | Calcular y ejecutar 10 casos del problema 2; registrar resultados. |Rosa Sánchez Espinoza|Rosasanchez23| | Pendiente | |
+| T11 | pruebas/problema-2 | Calcular y ejecutar 10 casos del problema 2; registrar resultados. |Rosa Sánchez Espinoza|Rosasanchez23| hectorsamur25 | Integrada | https://github.com/Rosasanchez23/Proyecto-1a/pull/27 |
 | T12 | web/resultados | Agregar análisis de resultados y conclusión de ambos problemas. |Itzel Gonzalez Lozada|Itze02| | Pendiente | |
 | T13 | web/estilos | Completar CSS y revisar legibilidad, enlaces e imágenes. |Alexa Lizbeth Hernández León|260110399-oss| | Pendiente | |
-| T14 | docs/presentacion | Preparar presentación final y ensayar exposición de 12 minutos. |Todos los integrantes| | | Pendiente | |
+| T14 | docs/presentacion | Preparar presentación final y ensayar exposición de 12 minutos. |Hector Rodriguez San Roman|hectorsamur25| | Pendiente | |
 | T15 | docs/portada-repo | Completar README.md con resumen, integrantes y enlaces a entregables. |Alexa Lizbeth Hernández León|260110399-oss| | Pendiente | |
 | T16 | revision/final | Revisar entrega completa, corregir pendientes y registrar revisión final. |Rosa Sánchez Espinoza|Rosasanchez23| | Pendiente | |
 
@@ -26,8 +26,8 @@
 
 ## Distribución de turnos de la exposición
 
-- Integrante 1:
-- Integrante 2:
-- Integrante 3:
-- Integrante 4:
-- Integrante 5:
+- Integrante 1: Hector Rodriguez San Roman
+- Integrante 2: Itzel Gonzalez Lozada
+- Integrante 3: Alexa Lizbeth Hernández León
+- Integrante 4: Rosa Sánchez Espinoza 
+- Integrante 5: Luis Enrique Alamilla Martinez
