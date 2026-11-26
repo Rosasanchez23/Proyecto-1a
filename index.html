@@ -248,6 +248,87 @@
 
         <section id="resultados">
             <h2>Resultados</h2>
+            <h2>Análisis de resultados</h2>
+            <h3>Problema 1: Módulo financiero-lógico</h3>
+            <table border="1">
+    <caption>Tabla 1. Pruebas del módulo financiero-lógico</caption>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Precio</th>
+        <th>p</th>
+        <th>q</th>
+        <th>Impuesto</th>
+        <th>Importe del impuesto</th>
+        <th>Total</th>
+        <th>Coincide</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td>$8650</td><td>1</td><td>1</td>
+        <td>0%</td><td>$0</td><td>$8650</td><td>Sí</td>
+      </tr>
+      <tr>
+        <td>2</td><td>$13275</td><td>1</td><td>0</td>
+        <td>8%</td><td>$1062</td><td>$14337</td><td>Sí</td>
+      </tr>
+      <tr>
+        <td>3</td><td>$6890</td><td>0</td><td>0</td>
+        <td>16%</td><td>$1102.40</td><td>$7992.40</td><td>Sí</td>
+      </tr>
+    </tbody>
+  </table>
+            <p>En las tres pruebas el resultado del programa coincidió con el esperado. 
+                Cada caso activa una regla distinta: p ∧ q aplica la exención del 0%, 
+                p ⊕ q aplica la tasa reducida del 8% y ¬p ∧ ¬q aplica la tasa general del 16%. 
+                Esto confirma que la lógica proposicional se implementó correctamente en las condiciones del programa</p>
+
+         <h3>Problema 2: Módulo geométrico-vectorial</h3>
+          <table border="1">
+    <caption>Tabla 2. Pruebas del módulo geométrico-vectorial</caption>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>P1 (x1,y1)</th>
+        <th>P2 (x2,y2)</th>
+        <th>Δx = x2 - x1</th>
+        <th>Δy = y2 - y1</th>
+        <th>Distancia</th>
+        <th>Coincide</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td>(6,2)</td><td>(-4,-10)</td>
+        <td>-10</td><td>-12</td><td>15.62</td><td>Sí</td>
+      </tr>
+      <tr>
+        <td>2</td><td>(0.005,2.3)</td><td>(-6.4,5)</td>
+        <td>-6.005</td><td>2.2</td><td>6.40</td><td>Sí</td>
+      </tr>
+      <tr>
+        <td>3</td><td>(-7,9)</td><td>(74,56.7)</td>
+        <td>81</td><td>47.7</td><td>94</td><td>Sí</td>
+      </tr>
+    </tbody>
+  </table>
+                
+            <p>Las pruebas usaron coordenadas enteras, decimales y negativas, 
+            y en todas el programa calculó los incrementos Δx y Δy y la distancia con el teorema de Pitágoras.
+            Además, el programa detecta los casos especiales: puntos iguales y puntos que forman una recta vertical,
+            mostrando un mensaje en lugar de un cálculo incorrecto.</p>
+
+            <h2>Conclución</h2>
+
+            <p>Las pruebas confirmaron que ambos módulos funcionan correctamente. 
+            El módulo financiero aplica la tasa correcta según las condiciones p y q usando lógica proposicional, 
+            y el módulo geométrico calcula los incrementos y la distancia con el teorema de Pitágoras.
+            El proyecto integró conocimientos de programación, matemáticas discretas y cálculo diferencial,
+            y mostró la importancia de la precisión en los cálculos fiscales. 
+            En conjunto se obtuvo una herramienta funcional, con validación de datos de entrada, 
+            que combina conocimientos técnicos con responsabilidad profesional.</p>
+            
         </section>
     </main>
 </body>
